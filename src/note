@@ -1,0 +1,69 @@
+
+
+
+                                Angular - Front End Technology
+
+                                        Basic Commands
+                                    -----------------------
+
+                   1. creation of angular project - ng new  project-name
+
+                   2. to run angular project - ng serve
+
+                   3. component creation - ng g c component-name
+
+                   4. Service creation - ng g s Service-name
+
+
+                                        Basic Concepts
+                                    -----------------------
+
+                1. Module - To import 3rd party library - root Module - AppModule
+
+                2. Components - html,css,ts 
+
+                3. To set up Path  for component - App routing module file 
+
+                4. routing-outlet selector 
+
+                5. Angular Service 
+
+                6. Dependency Injection - inside constructor
+                    syntax: access-specifier object-name:dependent-class-name
+
+                7. asynchronous - rxjs - observable - subscribe()
+
+                8. Data Binding - sharing data inside a component
+
+                    8.1 One way Binding
+
+                        8.1.1 component to view
+
+                            8.1.1.1 String Interpolation - {{variable-name}}
+                            8.1.1.2 Property Binding - [attribute]="property-name"
+
+
+                        8.1.2 view to component
+
+                            8.1.2.1 Event Binding - (event)="function-call"
+                            8.1.2.2 Event Binding using $event - (event)="function-call($event)"
+                            8.1.2.3 Template Reference variable, #variable-name
+
+                    8.2 Two way Binding
+
+                        8.2.1 ngModel (Template Driven Forms) 
+                            - Import FormsModule , [(ngModel)]="variable-name"
+                            - ngSubmit - apply it in form tag , (ngSubmit)="function call"
+
+                9. Angular Directive - to manipulate DOM
+
+                    9.1 Component Directive
+                    9.2 Structural Directive - to add/remove html elements
+                         9.2.1 *ngIf="condition"
+                         9.2.2 *ngFor="let variable-name of array-name"
+
+                10. ActivatedRoute - Provides access to information about a route associated with a component
+
+                11. Router class - use navigateByUrl() to navigate one to another using ts
+
+                
